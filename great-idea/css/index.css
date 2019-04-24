@@ -91,6 +91,7 @@ header a {
 	display: flex;
 	justify-content: space-around;
 	margin: 20px 0;
+	border-bottom: 1px solid #000;
 }
 
 .banner h1 {
@@ -107,7 +108,20 @@ button {
 	border: 1px solid #000;
 }
 
-hr {
-	width: 860px;
-	margin: 0 auto;
+/* MAIN CONTENT */
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 20px;
 }
+
+.img img {
+	margin: 0 auto;
+	padding: 20px 20px;
+}
+
+main {
+	border-bottom: 1px solid #000;
+	padding: 20px 0;
+}
+

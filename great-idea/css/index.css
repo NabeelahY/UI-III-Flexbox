@@ -112,6 +112,9 @@ button {
 	border: 1px solid #000;
 	font-size: 20px;
 }
+.index p {
+	line-height: 20px;
+}
 
 /* MAIN CONTENT */
 .main-content {
@@ -125,9 +128,10 @@ button {
 	padding: 20px 20px;
 }
 
-main .index {
+main.index {
 	border-bottom: 1px solid #000;
 	padding: 20px 0;
+	margin-top: 0;
 }
 
 /* FOOTER */
@@ -160,11 +164,51 @@ footer .copyright {
 .services {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	padding: 20px 0;
 }
 
 .services div {
-	border: 1px solid #ccc;
+	border: 2px solid #ccc;
 	padding: 20px;
-	width: 450px;
+	width: 460px;
 	margin: 10px;
+	background-color: rgb(235, 235, 235);
+}
+
+.services div p, .top-service p{
+	line-height: 30px;
+}
+
+.services div button {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 100px;
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+	width: 940px;
+	margin:0 auto;
+	padding: 20px 0;
+}
+
+.facts p {
+	line-height: 30px;
+	width: 80%;
+}
+
+.facts ul {
+	list-style-type: disc;
+	line-height: 30px;
+}
+
+footer .cp {
+	text-align: center;
 }

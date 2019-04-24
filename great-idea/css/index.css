@@ -125,7 +125,7 @@ button {
 	padding: 20px 20px;
 }
 
-main {
+main .index {
 	border-bottom: 1px solid #000;
 	padding: 20px 0;
 }
@@ -144,3 +144,6 @@ footer .copyright {
 	text-align: center;
 	padding: 10px;
 }
+
+/* SERVICES PAGE */
+/**/

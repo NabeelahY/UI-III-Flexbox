@@ -75,10 +75,39 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-around;
 	margin: 20px 0;
+	padding: 20px 0;
 }
 
 header a {
 	padding: 20px 20px;
 	text-decoration: none;
 	color: #5c5959;
+}
+
+/* BANNER */
+
+.banner {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0;
+}
+
+.banner h1 {
+	width: 50%;
+	text-align: center;
+	font-size: 80px;
+	margin: 0;
+}
+
+button {
+	padding: 15px;
+	background-color: #ffffff;
+	width: 200px;
+	border: 1px solid #000;
+}
+
+hr {
+	width: 860px;
+	margin: 0 auto;
 }
